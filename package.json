@@ -14,5 +14,15 @@
   "license": "ISC",
   "dependencies": {
     "nan": "^2.18.0"
-  }
+  },
+  "tree-sitter": [
+    {
+      "file-types": [
+        "Jenkinsfile"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ]
+    }
+  ]
 }
